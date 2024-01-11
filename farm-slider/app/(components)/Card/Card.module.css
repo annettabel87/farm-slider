@@ -1,0 +1,59 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    width: 344px;
+    cursor: pointer;
+}
+
+.card:hover .text {
+    color: var(--emerald);
+    cursor: pointer;
+}
+
+.big {
+    width: 688px;
+}
+
+.frame {
+    height: 344px;
+    overflow: hidden;
+}
+
+.drop {
+    border-top-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+}
+
+.circle {
+    border-radius: 600px;
+}
+
+.bigFrame {
+    width: 688px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.text {
+    color: var(--dark-grey);
+    font-size: var(--medium-font);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.056px;
+    transition: all 0.3s ease;
+}
+
+.text:hover {
+    color: var(--emerald);
+}
+
+.textSmall {
+    color: var(--light-grey);
+    font-size: var(--small-font);
+    font-weight: 500;
+}
