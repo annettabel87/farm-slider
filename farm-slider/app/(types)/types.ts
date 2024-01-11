@@ -1,4 +1,4 @@
-export type ImageFrameType = "circle" | "drop" | "oval";
+export type ImageFrameType = "circle" | "drop" | 'revertDrop';
 
 export interface ICardProps {
   frame: ImageFrameType;
@@ -11,11 +11,6 @@ export interface ICardData {
   img: string;
   title: string;
   date: string;
-}
-
-export enum FrameTypes {
-  fromCircle,
-  fromDrop,
 }
 
 export interface INavigationProps {

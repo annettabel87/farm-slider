@@ -25,6 +25,11 @@
     border-bottom-right-radius: 65%;
 }
 
+.revertDrop {
+    border-top-right-radius: 65%;
+    border-bottom-left-radius: 65%;
+}
+
 .circle {
     border-radius: 600px;
 }
