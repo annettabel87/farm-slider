@@ -3,7 +3,7 @@ import { Raleway } from 'next/font/google'
 import './globals.css'
 
 const raleway = Raleway({
-   subsets: ['latin', 'cyrillic'], 
+   subsets: ['latin', 'cyrillic'],
    weight: ['400', '500', '600', '700'],
    variable: '--font-raleway',
   })
