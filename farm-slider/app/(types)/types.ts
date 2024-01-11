@@ -17,3 +17,8 @@ export enum FrameTypes {
   fromCircle,
   fromDrop,
 }
+
+export interface INavigationProps {
+  leftClickHandler: () => void;
+  rightClickHandler: () => void;
+}

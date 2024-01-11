@@ -9,7 +9,9 @@
   --small-font: 18px;
   --medium-font: 28px;
   --title-font: 72px;
+  --card-width: 344px;
 }
+
 
 * {
   box-sizing: border-box;
@@ -32,4 +34,5 @@ a {
 
 .container {
   max-width: var(--max-width);
+  margin:  0 auto;
 }

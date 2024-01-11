@@ -19,6 +19,7 @@ function Card({ frame, data }: ICardProps) {
           height={344}
           alt="image"
           className={styles.img}
+          loading="lazy"
         />
       </div>
       <figcaption className={styles.description}>

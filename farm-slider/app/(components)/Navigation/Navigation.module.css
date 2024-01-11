@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    width: var(--card-width);
+    height: 47px;
+    background-repeat: no-repeat;
+    transition: all ease 0.3s;
+}
+
+.right {
+    background-image: url('../../../public/rightLightArrow.svg');
+    background-position: right center;
+}
+
+.right:hover {
+    background-image: url('../../../public/rightDarkArrow.svg');
+}
+
+.left {
+    background-image: url('../../../public/leftLightArrow.svg');
+    background-position: left center;
+}
+
+.left:hover {
+    background-image: url('../../../public/leftDarkArrow.svg');
+}

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 29px;
-    width: 344px;
+    width: var(--card-width);
     cursor: pointer;
 }
 
@@ -12,11 +12,11 @@
 }
 
 .big {
-    width: 688px;
+    width: calc(var(--card-width)*2);
 }
 
 .frame {
-    height: 344px;
+    width: var(--card-width);
     overflow: hidden;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .bigFrame {
-    width: 688px;
+    width: calc(var(--card-width)*2);
 }
 
 .description {
@@ -56,4 +56,8 @@
     color: var(--light-grey);
     font-size: var(--small-font);
     font-weight: 500;
+}
+
+.img {
+    object-fit: cover;
 }
