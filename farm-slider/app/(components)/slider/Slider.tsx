@@ -8,7 +8,7 @@ import { getFramesArray } from "@/app/(helpers)/helpers";
 import styles from "./Slider.module.css";
 
 function Slider() {
-  const [frames, setFrames] = useState<ImageFrameType[]>(() =>
+  const [frames, setFrames] = useState<ImageFrameType[]>(
     getFramesArray(data.length)
   );
   const sliderRef = useRef<HTMLDivElement | null>(null);
