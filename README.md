@@ -2,7 +2,7 @@
 
 ### тестовое задание
 
-### Deploy: [https://project-management-app-71.netlify.app/](https://farm-slider.vercel.app/)](https://farm-slider.vercel.app/)
+### Deploy: https://farm-slider.vercel.app/
 
 In the project directory, you can run:
 
