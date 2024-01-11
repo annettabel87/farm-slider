@@ -1,3 +1,4 @@
+import Slider from "./(components)/slider/Slider";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         Собрали для вас полезные исследования схемы кормления и другие
         материалы, которые пригодятся для лучших результатов на вашем хозяйстве
       </p>
+      <Slider />
     </main>
   );
 }
