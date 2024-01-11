@@ -19,6 +19,8 @@
     background-position: right center;
 }
 
+
+
 .right:hover {
     background-image: url('../../../public/rightDarkArrow.svg');
 }
@@ -30,4 +32,22 @@
 
 .left:hover {
     background-image: url('../../../public/leftDarkArrow.svg');
+}
+
+@media screen and (max-width: 760px) {
+    .right {
+        background-image: url('../../../public/sm-rightLightArrow.svg');
+    }
+
+    .right:hover {
+        background-image: url('../../../public/sm-rightDarkArrow.svg');
+    }
+
+    .left {
+        background-image: url('../../../public/sm-leftLightArrow.svg');
+    }
+
+    .left:hover {
+        background-image: url('../../../public/sm-leftDarkArrow.svg');
+    }
 }
